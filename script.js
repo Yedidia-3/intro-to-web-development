@@ -1,3 +1,5 @@
+document.getElementById('year').textContent=new Date().getFullYear();
+
 function changeBackgroundColor(color){
     let section = document.getElementById('coding-journey');
     section.style.backgroundColor = color;
